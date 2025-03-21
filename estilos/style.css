@@ -98,3 +98,64 @@ main > div > button {
     cursor: pointer
 }
 
+.div-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding-top: 5rem;
+}
+
+#div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    padding: 0.6rem;
+  
+}
+
+.form {
+    position: relative;
+    top: -2rem;
+    margin-left: 12rem;
+}
+
+.form > h2 {
+    font-size: 1.7rem;
+}
+
+.div-form {
+    display: flex;
+    gap: 1rem;
+    padding-top: 0.6rem;
+}
+
+.div-form > form > input {
+    background-color: #DCDCDC;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    padding: 1rem 1rem ;
+    cursor: pointer;
+}
+
+.div-form > button {
+    color: #ffffff;
+    background-color: #d6000d;
+    padding: 0.8rem 2rem ;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.comentario {
+     background-color: #d6000d;
+}
+    
+
+
+
