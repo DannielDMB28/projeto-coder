@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/**
+ #FFFFFF
+ #d6000d
+ #000000
+*/
+
+body {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 1rem 2rem;
+}
+
+header > h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+span {
+    color: #d6000d;
+}
+
+.nav {
+    display: flex;
+    gap: 48px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px;
+}
+
+nav > a {
+    color: #000000;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.button-red {
+    color: #ffffff;
+    background-color: #d6000d;
+    padding: 0.8rem 4rem ;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main {
+    
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    height: 80vh;
+    padding: 1rem 3rem;
+}
+
+main > div {
+     position: relative;
+     top: 90px;
+}
+
+main > div > p {
+    font-size: 1.5rem;
+}
+
+main > div > h1 {
+    color: #d6000d;
+    font-size: 3.5rem;
+}
+
+main > div > button {
+    position: relative;
+    top: 50px;
+    color: #ffffff;
+    background-color: #d6000d;
+    padding: 0.8rem 4rem ;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer
+}
+
