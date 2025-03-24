@@ -153,9 +153,20 @@ main > div > button {
 }
 
 .comentario {
-     background-color: #d6000d;
+    background: #DCDCDC;
+    max-width: 500px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 12px;
 }
-    
+
+.div-comentario {
+    flex-direction: column;
+    gap: 1rem;
+}
 
 
 
