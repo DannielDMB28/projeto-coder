@@ -51,6 +51,12 @@ nav > a {
     margin-top: 15px;
 }
 
+nav > a:hover {
+    color: #d6000d;
+    transition: .5s;
+    
+}
+
 .button-red {
     color: #ffffff;
     background-color: #d6000d;
